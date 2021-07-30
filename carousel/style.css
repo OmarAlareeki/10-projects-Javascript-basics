@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.carousel {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+}
+
+.img-container {
+    display: flex;
+    transition: transform .3s ease-in-out;
+    transform: translateX(0)
+}
+
+img {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    margin: auto
+}

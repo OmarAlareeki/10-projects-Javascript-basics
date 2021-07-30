@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    background-color: rebeccapurple;
+    flex-direction: column;
+}
+.container {
+    width: 30%
+}
+.soundButton {
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 20%;
+    padding: .3rem;
+    margin-bottom: 3px;
+    font-size: .9rem;
+}
